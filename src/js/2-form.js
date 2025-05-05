@@ -26,7 +26,7 @@ form.addEventListener('input', event => {
 form.addEventListener('submit', event => {
   event.preventDefault();
   if (!formData.email || !formData.message) {
-    alert('Надрукуй щось Олень');
+    alert('Потрібно ввести текст');
     return;
   }
   console.log(formData);
